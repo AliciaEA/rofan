@@ -1,14 +1,47 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=GFS+Neohellenic:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+/* General */
 body{
     background-color: rgb(255, 236, 230);
     font-family: 'GFS Neohellenic', sans-serif;
     font-size: 1.3rem;
+    margin: 0;
 }
 
 h1, h2, h3, h4{
     font-family: 'Dancing Script', cursive;
     text-align: center;
     color: rgb(129, 50, 11);
+}
+
+.container{
+    margin: 2rem;
+}
+
+/* Nav - Header */
+nav{
+    background-color: rgb(245, 215, 205);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
+    justify-content: center;
+}
+.nav-item{
+    text-decoration: none;
+    padding: 30px;
+    color: rgb(107, 38, 38);
+}
+.nav-item:hover{
+    background-color: rgb(231, 199, 187);
+    color: rgb(182, 100, 100);
+}
+
+
+nav a .icon{
+    max-width: 60px;
+    margin: 0 2rem 0 0;
+    padding: 0;
 }
