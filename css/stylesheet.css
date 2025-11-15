@@ -1,0 +1,14 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=GFS+Neohellenic:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    background-color: rgb(255, 236, 230);
+    font-family: 'GFS Neohellenic', sans-serif;
+    font-size: 1.3rem;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: rgb(129, 50, 11);
+}
