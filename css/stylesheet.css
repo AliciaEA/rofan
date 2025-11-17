@@ -94,6 +94,23 @@ nav a .icon {
     justify-content: center;
 }
 
+.hero.reinc {
+    background: linear-gradient(rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.35)), url('../assets/reinc-back.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.hero.reinc h1 {
+    font-size: 3rem;
+}
+
 .hero .container {
     width: 70%;
 }
@@ -141,42 +158,102 @@ nav a .icon {
 }
 
 /* Cards Section */
-.flashcards{
+.flashcards {
     margin-bottom: 11rem;
 }
 
-.cards{
-    
+.cards {
+
     display: grid;
     grid-template-columns: 600px 1fr;
     align-items: center;
     gap: 50px;
 }
 
-.card{
+.card {
     background-color: rgb(237, 230, 201);
     padding: 40px;
     text-align: center;
     border-radius: 40px;
     box-shadow: #e9c07a 10px 10px 10px;
+    width: 70%;
 }
-.card span{
+
+.card span {
     font-size: 6rem;
-    
+
 }
-.card p{
+
+.card p {
     font-style: italic;
     color: #574627;
 }
-.card:hover{
+
+.card:hover {
     background-color: #e6c386;
-     box-shadow: #fab54c 10px 10px 10px;
+    box-shadow: #fab54c 10px 10px 10px;
 }
-.card:hover h3{
+
+.card:hover h3 {
     color: #fcf9f4;
 }
 
+.card img {
+    max-height: 500px;
+}
+
+
+
+
+
+/* List */
+
+.list {
+    margin-bottom: 10rem;
+}
+
+.list p {
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+#lined {
+    text-decoration: line-through;
+
+}
+
+#cliche {
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+    border: #d9b26f 2px solid;
+    background-color: rgb(245, 236, 205);
+    padding: 60px;
+    text-align: center;
+}
+
+footer .btn {
+    background-color: #d9b26f;
+}
+
+.reinc {
+    margin-bottom: 9rem;
+}
+
+
+
 @media(max-width:999px) {
+    .cards {
+    flex-direction: grid;
+    grid-template-columns: 1fr;
+}
+
+
     .hero {
         height: 850px;
     }
@@ -193,37 +270,16 @@ nav a .icon {
         max-width: 300px;
     }
 
-    .cards{
-        flex-direction: grid;
-        grid-template-columns: 1fr;
+    .card img {
+        max-height: 300x;
     }
-}
 
-/* List */
-
-.list{
-    margin-bottom: 10rem;
-}
-.list p{
-    text-align: center;
-    font-weight: bolder;
-    
-}
-
-#lined{
-    text-decoration: line-through;
 
 }
 
-/* Footer */
+@media(max-width:500px) {
+    .card img {
+        max-height: 250px;
+    }
 
-footer{
-    border: #d9b26f 2px solid;
-    background-color: rgb(245, 236, 205);
-    padding: 60px;
-    text-align: center;
-}
-
-footer .btn{
-background-color: #d9b26f;
 }
