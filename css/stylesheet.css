@@ -2,46 +2,228 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=GFS+Neohellenic:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* General */
-body{
-    background-color: rgb(255, 236, 230);
+body {
+    background-color: rgb(243, 237, 226);
     font-family: 'GFS Neohellenic', sans-serif;
     font-size: 1.3rem;
     margin: 0;
 }
 
-h1, h2, h3, h4{
+h1,
+h2,
+h3,
+h4 {
     font-family: 'Dancing Script', cursive;
     text-align: center;
-    color: rgb(129, 50, 11);
+    color: rgb(196, 133, 7);
+
 }
 
-.container{
+.container {
     margin: 2rem;
 }
 
+/* Buttons */
+a {
+    text-decoration: none;
+}
+
+
+.btn {
+    padding: 12px 45px;
+    background-color: rgb(234, 239, 221);
+    font-family: 'GFS Neohellenic', sans-serif;
+    font-size: 1.3rem;
+    color: rgb(31, 52, 45);
+    border: none;
+    border-radius: 15px;
+
+}
+
+.btn:hover {
+    background-color: rgb(236, 232, 205);
+    color: rgb(178, 138, 86);
+    border: #d29935, 2px solid;
+}
+
 /* Nav - Header */
-nav{
-    background-color: rgb(245, 215, 205);
+nav {
+    background-color: rgb(245, 236, 205);
     text-align: center;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 0;
     justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+
 }
-.nav-item{
+
+.nav-item {
     text-decoration: none;
-    padding: 30px;
-    color: rgb(107, 38, 38);
-}
-.nav-item:hover{
-    background-color: rgb(231, 199, 187);
-    color: rgb(182, 100, 100);
+    padding: 20px;
+    color: rgb(107, 86, 38);
 }
 
+.nav-item:hover {
+    background-color: rgb(247, 235, 183);
+    color: rgb(222, 137, 0);
+}
 
-nav a .icon{
+nav a .icon {
     max-width: 60px;
     margin: 0 2rem 0 0;
     padding: 0;
+}
+
+/* Hero */
+
+.hero {
+    background: linear-gradient(rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.35)), url('/assets/hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.hero .container {
+    width: 70%;
+}
+
+.hero h1 {
+    font-size: 4.5rem;
+    color: rgb(129, 50, 11);
+}
+
+.hero h1:hover {
+    color: #deb062;
+
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: rgb(47, 29, 16);
+}
+
+.hero p:hover {
+    color: #705424;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Intro Section */
+
+#rofan {
+    margin-top: 8rem;
+    margin-bottom: 9rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
+}
+
+#rofan img {
+    max-width: 550px;
+}
+
+/* Cards Section */
+.flashcards{
+    margin-bottom: 11rem;
+}
+
+.cards{
+    
+    display: grid;
+    grid-template-columns: 600px 1fr;
+    align-items: center;
+    gap: 50px;
+}
+
+.card{
+    background-color: rgb(237, 230, 201);
+    padding: 40px;
+    text-align: center;
+    border-radius: 40px;
+    box-shadow: #e9c07a 10px 10px 10px;
+}
+.card span{
+    font-size: 6rem;
+    
+}
+.card p{
+    font-style: italic;
+    color: #574627;
+}
+.card:hover{
+    background-color: #e6c386;
+     box-shadow: #fab54c 10px 10px 10px;
+}
+.card:hover h3{
+    color: #fcf9f4;
+}
+
+@media(max-width:999px) {
+    .hero {
+        height: 850px;
+    }
+
+    #rofan {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #rofan img {
+        max-width: 300px;
+    }
+
+    .cards{
+        flex-direction: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+/* List */
+
+.list{
+    margin-bottom: 10rem;
+}
+.list p{
+    text-align: center;
+    font-weight: bolder;
+    
+}
+
+#lined{
+    text-decoration: line-through;
+
+}
+
+/* Footer */
+
+footer{
+    border: #d9b26f 2px solid;
+    background-color: rgb(245, 236, 205);
+    padding: 60px;
+    text-align: center;
+}
+
+footer .btn{
+background-color: #d9b26f;
 }
