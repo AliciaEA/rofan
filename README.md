@@ -16,14 +16,14 @@ I dint use AI, I put my copilot to 'snooze mode' in vsc
 
 ### 3 Scoops
 
-Has a footer
-404 Page
-Link to another website (Github repo! & hackclub)
-Special link (email)
-Special text Formatting
-HTML list
-Bookmark 
-3 Paragraphs on a page, each with unique CSS
-Custom imported Font (Google Fonts) 
-HTML Button
-CSS :hover or other pseudo-class
+- Has a footer
+- 404 Page
+- Link to another website (Github repo! & hackclub)
+- Special link (email)
+- Special text Formatting
+- HTML list
+- Bookmark 
+- 3 Paragraphs on a page, each with unique CSS
+- Custom imported Font (Google Fonts) 
+- HTML Button
+- CSS :hover or other pseudo-class
