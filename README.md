@@ -1,9 +1,14 @@
+<div>
+  
 # Romance and Fantasy Novels (RoFan)
+  
+<img width="1900" height="823" alt="image" src="https://github.com/user-attachments/assets/1240f599-604e-48c3-94a1-39ddf106eb98" />
 
 Yes, I do like Rofan
 
 ![Hackatime](https://hackatime-badge.hackclub.com/U091QQE2X26/rofan)
 
+</div>
 ---
 ## Live Site
 https://aliciaea.github.io/rofan/
