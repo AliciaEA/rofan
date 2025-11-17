@@ -83,7 +83,7 @@ nav a .icon {
 /* Hero */
 
 .hero {
-    background: linear-gradient(rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.35)), url('/assets/hero-background.jpg');
+    background: linear-gradient(rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.35)), url('../assets/hero-background.jpg');
     background-size: cover;
     background-position: center;
     height: 600px;
